@@ -21,6 +21,7 @@ window.Vue = require('vue');
 
 Vue.component('main-component', require('./components/MainComponent.vue').default);
 Vue.component('controll-bar',require('./components/ControllBar').default);
+Vue.component('thread-bar',require('./components/ThreadBar').default);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application

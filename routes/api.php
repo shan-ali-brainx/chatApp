@@ -16,3 +16,7 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::post('/message','Api\MessageController@create');
+Route::get('/fetchThreadMessages','Api\MessageController@fetchThreadMessages');
+Route::get('/fetch','Api\MessageController@index');

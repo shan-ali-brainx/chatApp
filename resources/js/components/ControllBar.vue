@@ -2,8 +2,8 @@
     <div>
         <div class="bg-grey">
             <div class="row py-2 px-4">
-                <div class="col-8 text-left align-middle "> <h6 class="align-middle text-white"> {{this.userName}} </h6></div>
-                <div class="col-4">
+                <div class="col-7 text-left align-middle "> <h6 class="align-middle text-white"> {{this.userName}} </h6></div>
+                <div class="col-5">
                     <li v-if="active" class="color-acive fas fa-circle"></li>
                     <li v-else class="color-inactive fas fa circele"></li>
                 </div>

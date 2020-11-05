@@ -38,10 +38,8 @@
                 @endif
             </div>
 
-            <div id="app" class="content ">
-
-                    <main-component></main-component>
-                </div>
+            <div id="app" class="content">
+                <main-component></main-component>
             </div>
         </div>
     </body>
